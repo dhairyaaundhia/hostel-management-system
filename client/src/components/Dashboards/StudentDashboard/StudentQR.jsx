@@ -1,0 +1,42 @@
+// import React from "react";
+
+// const StudentQR = () => {
+//   // Your static QR code (base64 string)
+//   const qrCode =
+//     "data:image/png;base64,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";
+
+//   return (
+//     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+//       <h1 className="text-2xl font-bold mb-6">Student QR Code</h1>
+//       <img
+//         src={qrCode}
+//         alt="Student QR"
+//         className="border-4 border-gray-400 rounded-xl shadow-lg"
+//       />
+//     </div>
+//   );
+// };
+
+// export default StudentQR;
+import React from "react";
+
+const StudentQR = () => {
+  // Your static QR code (base64 string)
+  const qrCode =
+    "data:image/png;base64,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";
+
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#121212] text-white">
+      <h1 className="text-2xl font-bold mb-6">Student QR Code</h1>
+      <div className="bg-[#1e1e1e] p-6 rounded-2xl shadow-lg">
+        <img
+          src={qrCode}
+          alt="Student QR"
+          className="rounded-xl border-4 border-[#2a2a2a] shadow-lg"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default StudentQR;
